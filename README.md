@@ -7,7 +7,7 @@ By default, after installation RadosGW listens on port 8080.
 ## Deploy with Vagrant on local VirtualBox VM
 
 ```bash
-$ git clone https://gitlab.2gis.ru/InfraWeb/ceph-aio.git /tmp/ceph-aio
+$ git clone https://github.com/maxkochubey/ceph-aio.git /tmp/ceph-aio
 $ cd /tmp/ceph-aio
 $ # Now it's time to customize config "scripts/ceph-aio.conf"
 $ vagrant up
@@ -16,7 +16,7 @@ $ vagrant up
 ## Deploy with Vagrant in OpenStack VM
 
 ```bash
-$ git clone https://gitlab.2gis.ru/InfraWeb/ceph-aio.git /tmp/ceph-aio
+$ git clone https://github.com/maxkochubey/ceph-aio.git /tmp/ceph-aio
 $ cd /tmp/ceph-aio
 $ # Now it's time to customize config "scripts/ceph-aio.conf"
 $ vagrant plugin install vagrant-openstack-provider
@@ -30,7 +30,7 @@ $ username=ubuntu vagrant up --provider=openstack
 ## Deploy on already existing Ubuntu VM
 
 ```bash
-$ git clone https://gitlab.2gis.ru/InfraWeb/ceph-aio.git /tmp/ceph-aio
+$ git clone https://github.com/maxkochubey/ceph-aio.git /tmp/ceph-aio
 $ cd /tmp/ceph-aio/scripts
 $ # Now it's time to customize config ceph-aio.conf
 $ # and just start script for ceph deploy
