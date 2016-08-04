@@ -20,8 +20,10 @@ $ git clone https://gitlab.2gis.ru/InfraWeb/ceph-aio.git /tmp/ceph-aio
 $ cd /tmp/ceph-aio
 $ # Now it's time to customize config "scripts/ceph-aio.conf"
 $ vagrant plugin install vagrant-openstack-provider
-$ # After vagrant plugin installation you have to edit "Vagrantfile" and write correct OpenStack credentials, networks, image, flavor, etc.
-$ # Usually there's no "vagrant" user in regular Ubuntu Trusty OpenStack image, so we'll use "ubuntu" user from Ubuntu cloud image
+$ # After vagrant plugin installation you have to edit "Vagrantfile" and \
+  # write correct OpenStack credentials, networks, image, flavor, etc.
+$ # Usually there's no "vagrant" user in regular Ubuntu Trusty OpenStack \
+  # image, so we'll use "ubuntu" user from Ubuntu cloud image
 $ username=ubuntu vagrant up --provider=openstack
 ```
 
