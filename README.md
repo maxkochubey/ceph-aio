@@ -1,7 +1,7 @@
 # Ceph all-in-one
 
 Deploying single-node Ceph cluster with HTTP REST gateway for the RADOS object store.
-
+It may be useful for some testing purposes.
 By default, after installation RadosGW listens on port 8080.
 
 ## Deploy with Vagrant on local VirtualBox VM
